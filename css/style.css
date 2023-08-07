@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(14, 58, 54);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.con {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    
+}
+
+.header {
+    padding: 5px, 0px;
+
+}
+
+nav ul li {
+    list-style: none;
+    
+    display: inline;
+    margin-top: 3px;
+    padding-left: 30px;
+    
+    
+       
+    
+
+    font-size: 13px;
+    font-weight: 600;
+    font-style:bold;
+    position: relative;
+}
+
+
+img{width:100%;}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(39, 28, 28);
+}
+
+.con ul {
+    background-color: rgb(190, 150, 96);
+    line-height: 35px;
+    
+}
+.drop {
+    display: none;
+    position: absolute;
+    top:100%;
+    left:0;
+
+}
+li:hover .drop{display: block;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+.section{padding:10 px;}
+.banner1{width: 72%;;}
+.banner2{border:1px solid grey;width: 27%;}
+.banner1box{width: 35%;border:1px solid grey;border-top: 5px solid rgb(7, 198, 26);}
+
+
+
+
+.card-title{
+background-color: rgb(148, 123, 92);padding: 10px;}
+.card-title1{
+    background-color: rgb(7, 198, 26);padding: 7px;color: white;width: 150px;font-size: 13px;padding: 10px;margin-bottom: 10px  ;}
+article {padding: 5px;font-size: 14px;border-bottom: 1px grey solid;padding-bottom: 10px;}
+.thumb{width: 80px; float: left;padding-right: 10px;
+}
+.fix{position: fixed;top: 40%;right: 0px;background-color: grey;margin-right: 10px;border: 1px solid black;border-radius: 10px;padding: 5px;}
+.fix img{width:40px ;height :40px;display: block;margin-bottom: 20px;}
+
+.clear{clear: both;}
+.box h3{border-bottom: 2px solid white;padding-bottom: 10px;}
+.box{padding: 10px;background-color: rgb(15, 82, 15);}
+.box p{margin: 10px 0px;}
+.clearl{clear: left;}
+.clearr{clear:left;}
+.banner2 .pressrelease li{list-style: none;border-bottom: 2px solid black;margin-bottom: 10px;}
+.banner2 .pressrelease{padding: 10px;font-size: 13px ;}
+.bansec{width: 72%;padding: 10px;}
+.sec1{width: 49%;}.sec2{width:49%}

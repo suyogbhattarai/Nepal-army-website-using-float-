@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background: #0E3A36;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.con 
+{
+    width: 1200px;
+    margin: auto;
+    background: #fff;
+}
+.w-100
+{
+    width: 100%;
+}
+nav 
+{
+    background: #BE9660;
+    line-height: 45px;
+}
+nav li 
+{
+    display: inline-block;
+}
+nav li a 
+{
+    text-decoration: none;
+    color: brown;
+    padding: 3px 10px;
+    display: block;
+    border-left: 1px solid #ccc;
+ 
+}
+.b-left
+{
+    width: 70%;
+    float: left;
+}
+.b-right
+{
+    width: 27%;
+    float: right;
+}
+.banner
+{
+    padding: 10px;
+}
+.clear
+{
+    clear: both;
+}
+.card
+{
+    border: 1px solid #ccc;
+    background: #FAFAFA;
+}
+.card-title
+{
+    background: #584832;
+    color: #fff;
+    padding: 4px;
+}
+.thumb
+{
+    width: 100px;
+    height: 66px;
+}
+article
+{
+    padding: 5px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+article img 
+{
+    float: left;
+    margin-right: 10px;
+}
